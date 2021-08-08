@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <H2><a href="./task_1.html">Задание 1</a></H2>
+  <a href="./task_2.html">Задание 2</a><br>
+  <a href="./task_3.html">Задание 3</a>
+  <script src="./js/index.js"></script>
+<br>
+<br>
+<br>
+
+  <div>
+
+  <p>
+    Напиши функцию delay(ms), которая возвращает промис, переходящий в состояние "resolved" через ms миллисекунд.
+    Значением  исполнившегося промиса должно быть то кол-во миллисекунд которое передали во время вызова функции delay.
+  </p> 
+  
+  <pre class="code">
+  const delay = ms => {
+  // Твой код
+  };
+  
+  const logger = time => console.log(`Resolved after ${time}ms`);
+  
+  // Вызовы функции для проверки
+  delay(2000).then(logger); // Resolved after 2000ms
+  delay(1000).then(logger); // Resolved after 1000ms
+  delay(1500).then(logger); // Resolved after 1500ms
+  </pre>
+  </div>
+
+  <script src="./js/task_1.js"></script>
+</body>
+
+</html>
